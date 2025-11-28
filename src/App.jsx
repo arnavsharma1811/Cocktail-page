@@ -1,3 +1,4 @@
+import Cocktails from './components/Cocktails.jsx'
 import Hero from './components/Hero.jsx'
 import Navbar from './components/navbar.jsx'
 const App = () => {
@@ -5,7 +6,8 @@ const App = () => {
         <>
         <Navbar/>
         <Hero/>
-        <div className="h-dvh bg-black"/>
+        
+        <Cocktails/>
         </>
     )
 }
