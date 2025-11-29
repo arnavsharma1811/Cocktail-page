@@ -4,6 +4,7 @@ import Cocktails from './components/Cocktails.jsx'
 import Hero from './components/Hero.jsx'
 import Navbar from './components/navbar.jsx'
 import Menu from './components/Menu.jsx'
+import Contact from './components/Contact.jsx'
 const App = () => {
     return(
         <>
@@ -13,6 +14,7 @@ const App = () => {
         <About/>
         <Art/>
         <Menu/>
+        <Contact/>
         </>
     )
 }
